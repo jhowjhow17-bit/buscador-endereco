@@ -137,3 +137,4 @@ else:
         st.dataframe(df_filtrado[["ID", "AT", "Endereço", "CIDADE", "CTO", "FAC"]].reset_index(drop=True))
     else:
         st.info("Nenhum resultado encontrado para os filtros selecionados.")
+
